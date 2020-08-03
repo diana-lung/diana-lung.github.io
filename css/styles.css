@@ -4008,10 +4008,6 @@ input[type=button].btn-block {
   text-decoration: none;
 }
 
-.navbar-logo {
-  
-}
-
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -9777,7 +9773,7 @@ button.bg-dark:focus {
   text-transform: uppercase !important;
 }
 
-.text-up-down-line {
+.title-text {
   width: fit-content;
   border-color: #fff;
   border-style: solid;
@@ -10222,7 +10218,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgb(130, 216, 207, 0.7);
+  background: rgba(130, 216, 207, 0.7);
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -10241,11 +10237,11 @@ header.masthead .masthead-heading {
   background-color: #e0c8a6;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+  color: #9d8970;
   font-size: 1.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   margin-bottom: 0;
-  color: #9d8970;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
